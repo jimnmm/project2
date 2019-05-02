@@ -1,0 +1,136 @@
+.main {
+    padding: 1rem ;
+}
+.banner {  
+    background:url(../images/duck2.png) no-repeat center ;
+}
+/* ------------top-rwd-------------------------- */
+@media (max-width: 400px) {
+.top .logo {
+    margin-left: .3rem;
+}
+}
+/* ----------------main-------------------- */
+.whiteBg {
+    width: 100%;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap:wrap;
+    background: rgba(255,255,225, .5);
+}
+.title {
+    width: 100%;
+}
+.main nav {
+    justify-content: space-between;
+}
+
+.article .art {
+    margin-bottom:1rem; 
+    width: 50%;
+    height: 70vh;
+}
+.article h2 {
+    font-size:2rem;
+    line-height:2.8rem;
+    text-align: center;
+    margin-bottom:1rem; 
+}
+.article h3 {
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+.art {
+    flex-wrap: wrap;
+} 
+.art h3{
+    width: 100%;
+}
+.pic {
+    width:50%;
+}
+.pic img {
+    height:70vh;
+    object-fit: cover;
+}
+.box2 {
+    flex-wrap:wrap;
+}
+.box2 .art {
+    width: 100%;
+}
+.box2 .pic{
+    width: 100%;
+    overflow: hidden;
+    height: 70vh;
+}
+.box2 .pic img{
+    width: 70%;
+    height: auto;
+}
+/* -------------------main-rwd--------------------------- */
+@media (max-width: 768px) {
+.box {
+    flex-wrap:wrap;
+}
+.article .art ,.article .pic {
+    width: 100%;
+    height: auto;
+}
+.order {
+    order:1;
+}
+.pic img {
+    width: 100%;
+    margin: 1rem;
+}
+}
+ /* ------------------Btn------------------------- */
+ #sideBtn {
+    width: 3rem;
+    height: 3rem;
+    position: fixed;
+    bottom:5rem;
+    right: 0;
+    background: #005115; 
+    z-index: 5;
+    color:#fff;
+    transition: .8s;
+}
+#sideBtn a {
+    padding: 1rem;
+}
+#sideBtn:hover {
+    opacity: .6;
+}
+/* -------------animate--------------------------- */
+.wp1 {
+    opacity: 0;
+}
+.wp1.animated {
+    opacity: 1;
+}
+.wp2 {
+    opacity: 0;
+}
+.wp2.animated {
+    opacity: 1;
+}
+.wp3 {
+    opacity: 0;
+}
+.wp3.animated {
+    opacity: 1;
+} 
+.wa1 {
+    opacity: 0;
+}
+.wa1.animated {
+    opacity: 1;
+}
+.wa2 {
+    opacity: 0;
+}
+.wa2.animated {
+    opacity: 1;
+}

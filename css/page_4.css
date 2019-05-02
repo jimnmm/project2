@@ -1,0 +1,120 @@
+
+        a {
+            text-decoration: none;
+        }
+        .banner {
+            background:url(../images/blog3.jpg) no-repeat center ;
+        }
+        .main {
+            padding: 1rem ;
+            width: 100%;
+        }
+        .post {
+            width: 60%; 
+        }
+        .slide {
+            width: 15%;
+            align-self: flex-start;
+        }
+        .wrapper {
+            flex-wrap: wrap;
+        }
+        /* ------------top-rwd-------------------------- */
+        @media (max-width: 400px) {
+        .top .logo {
+            margin-left: .3rem;
+        }
+        }
+        /* --------------main------------------ */
+        .whiteBg {
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 1rem;
+            flex-wrap:wrap;
+            background: rgba(255,255,225, .5);
+        }
+        /* -----------------post------------------- */
+        .noPost {
+            display: none;
+            font-size: 2.5rem;
+            line-height: 3.2rem;
+        }
+        .postHead h2 {
+            font-size: 2.5rem;
+            color:#00803e;
+            line-height: 3.2rem;
+        }
+        .postBody p {
+            font-size: 1rem;
+            line-height: 1.7rem;
+        }
+        .date {
+            display: block;
+            margin: .5rem 0;
+        }
+        .postBody {
+            line-height: 1.5rem;
+        }
+        .postBody img {
+            width: 100%;
+            object-fit: cover ;
+        }
+        .postFooter {
+            justify-content: flex-end;
+            margin-bottom: 2rem;
+        }
+        .Btn {
+            width: 60%;
+            height: 5vh;
+            justify-content: space-between;
+            color:#005215;
+            cursor: pointer;
+        }
+        .hide {
+            display: none;
+        }
+        @media (max-width: 768px) {
+        .post {
+            width: 100%;
+        }
+        .Btn {
+            width: 95%;
+        }
+         }
+        /* -------------slide----------------------------- */
+        .slide {
+            border-left: 1px solid #005215;
+        }
+        .slide ul {
+            font-size: 2rem;
+            margin: 1rem ;
+        }
+        .slide ul li {
+            font-size:1rem ;
+            color: #49af6a;
+            padding: .5rem 0;
+            cursor: pointer;
+        }
+        @media (max-width: 768px) {
+        .slide {
+            display: none;
+        }
+         }
+         /* ------------------Btn------------------------- */
+         #sideBtn {
+            width: 3rem;
+            height: 3rem;
+            position: fixed;
+            bottom:5rem;
+            right: 0;
+            background: #005115; 
+            z-index: 5;
+            color:#fff;
+            transition: .8s;
+        }
+        #sideBtn a {
+            padding: 1rem;
+        }
+        #sideBtn:hover {
+            opacity: .6;
+        }
